@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 16px;
+    color: gray;
+}
+b{
+    color: black;
+}
+.cointainer{
+    max-width: 630px;
+    height: auto;
+    box-shadow: 0px 0px 10px 0px gray;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-top: 5px;
+}
+header button{
+    padding: 10px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: hsl(219, 14%, 63%);
+
+}
+header p{
+    font-size: 18px;
+}
+header button:hover{
+    cursor: pointer;
+    /* color:hsl(219, 85%, 26%); */
+    color: hsl(219, 85%, 26%);
+}
+header span{
+    background-color: hsl(219, 85%, 26%);
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+h3{
+    color: black;
+}
+img{
+    width: 50px;
+    height: 50px;
+    padding: 5px 5px;
+    margin-right: 10px;
+}
+.noteCont{
+    display: flex;
+    padding: 0px 10px;
+
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+.msg{
+    border: 1px gray;
+    border-style:solid;
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.noteContIMP{
+    display: flex;
+    padding: 0px 10px;
+    margin: 5px 10px;
+    background: hsl(240, 55%, 96%);
+    border-radius: 5px;
+}
+.noteContIMP p::after{
+    /* content: ; */
+    height: 1px;
+    background-color: red;
+    color: transparent;
+    border-radius: 50%;
+}
+.noteContIMP:hover{
+    cursor: pointer;
+}
+.blue{
+    color: hsl(219, 85%, 26%);
+}
+.circle{
+    background-color: red;
+    padding: 0.01px 8px;
+    border-radius: 50%;
+    
+}
+@media(max-width:425px){
+    body{
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+    }
+    .cointainer{
+        margin-bottom: 0px;
+        height: auto;
+        overflow: none;
+        box-shadow: none;
+        
+
+    }
+}
